@@ -16,4 +16,4 @@ Página 404 interactiva hecha con HTML, CSS y JavaScript.
 1. Descarga la carpeta
 2. Abre `index.html`
 
-Hecho por: Tu Nombre
+Hecho por: Lalo
