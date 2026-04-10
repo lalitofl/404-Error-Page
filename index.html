@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Página no encontrada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Partículas de fondo -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Contenido de la página 404 -->
+    <div class="container">
+        <div class="error-card">
+            <div class="error-number">404</div>
+            <h1 class="error-title">¡!Ups</h1>
+            <p class="error-text">Lo sentimos, la página que buscas no se ha encontrado.</p>
+            
+
+            <!-- Botón adicional para volver al inicio -->
+            <button class="back-btn" onclick="goHome()">
+                <span>Volver al inicio</span>
+                <div class="btn-shine"></div>
+            </button>
+
+            <!-- Contador juguetón-->
+            <div class="counter">
+                <span id="counter">0</span>
+                <span class="counter-label">Intentos de encontrar la página</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
